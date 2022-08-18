@@ -41,9 +41,9 @@ function microondas(comida, tempo) {
 
   if (tempo < tempoPadrao) {
     return console.log("Tempo insuficiente ❄️")
-  } else if (tempo >= (tempoPadrao * 2) && tempo < (tempoPadrao * 3)) {
+  } else if (tempo > (tempoPadrao * 2) && tempo <= (tempoPadrao * 3)) {
     return console.log("A comida queimou 🔥")
-  } else if (tempo >= (tempoPadrao * 3)) {
+  } else if (tempo > (tempoPadrao * 3)) {
     return console.log("Kabumm 💥")
   }
 }
